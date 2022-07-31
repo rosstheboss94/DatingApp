@@ -21,6 +21,7 @@ namespace API.Extensions
                     ValidateIssuer = false,
                     ValidateAudience = false
                 };
+                options.SaveToken = true;
             });
 
             return services;
